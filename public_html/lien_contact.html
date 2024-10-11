@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Creative Studio main styles -->
+	<link rel="stylesheet" href="assets/css/creative-studio.css">
+    <style>
+        .test{
+            width:300px;
+            margin-left:150px;
+            height:32px;
+        }
+        .test:hover{
+            background-color: rgb(172, 182, 208);
+        }
+        .test:active{
+            background-color: rgb(226, 213, 231);
+        }
+        .mess{
+            width:480px;
+            margin-left:58px;
+            height:40px;
+        }
+        .mess:hover{
+            background-color: rgb(172, 182, 208);
+        }
+        .mess:active{
+            background-color: rgb(226, 213, 231);
+        }
+        .btn{
+            margin-left:230px;
+            background-color: rgb(37, 28, 77);
+            color:white;
+            
+        }
+        input::placeholder {
+    text-align: center;
+}
+textarea::placeholder {
+    text-align: center;
+}
+nav{
+      position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(37, 28, 77);
+            color: white;
+            
+}
+
+    </style>
+</head>
+<body style="background-color: rgb(37, 28, 77); color:black;">
+    
+<h1></h1>
+
+<!-- Page Navigation -->
+<nav class="navbar custom-navbar navbar-expand-lg navbar-dark" data-spy="affix" data-offset-top="20" style="position: fixed;">
+    <div class="container">
+        <a class="navbar-brand" href="../public_html/information.html">
+            <img src="assets/imgs/logo.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/lien_about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/lien_service.html">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/lien_profolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/lien_team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/lien_testimonial.html">Testimonial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/lien_blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/lien_contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../public_html/inscription.html">Inscription</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary btn-sm ml-lg-3" href="components.html">Components</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- End Of Page Navigation -->
+
+
+    <section id="contact"style="background-color: rgb(37, 28, 77); color:black;">
+        <div class="container">
+            <div class="contact-card">
+                <div class="infos">
+                    <h6 class="section-subtitle">Arrivez ici</h6>
+                    <h6 class="section-title mb-4">Contactez-nous</h6>
+
+                    <div class="item">
+                        <i class="ti-location-pin" ></i>
+                        <div class="">
+                            <h5>Localisation</h5>
+                            <p>19 C, route 1077 par route d'El Jadida, zone indus. lot Batoul,
+                                voie B 13, Lissasfa 2019 Casablanca </p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Numéro de téléphone</h5>
+                            <p><span>(+212)</span> 656123891</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Adresse e-mail</h5>
+                            <p>Plateforme_UXIU@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="ti-world"></i>
+                        <div class="mb-0">
+                            <h5>OUXIY.com</h5>
+                            <p>SUX_dev@UIUX.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form" method="GET">
+                    <h6  style="margin-left:150px; color:rgb(215, 20, 20); height:18px;"> </h6>
+                    <div class="alert alert-danger" style="color:black;" role="alert">
+                      <span style="margin-left:200px;">Disponible 24h/24 </span>  
+                      </div>
+                    <h6 class="section-title mb-4"style="margin-left:200px; color:black;">Prenez contact</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="test" id="Nom" aria-describedby="emailHelp" placeholder="Entrer Votre Nom " required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="test" id="Prenom" aria-describedby="emailHelp" placeholder="Entrer Votre Prenom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="test" id="email" aria-describedby="emailHelp" placeholder="Entrer Votre Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="test" id="password" placeholder="Mot de passe" required>
+                        </div>
+                        <div >
+                            <textarea name="contact-message"  class="mess" placeholder="Écrivez votre message"></textarea>
+                        </div> <br>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="has-bg-img py-0">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-lists">
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">À PROPOS DE NOUS</h6>
+                        </li>
+                        <li class="list-body">
+                            <a href="../public_html/information.html" class="logo">
+                                <img src="assets/imgs/logo.png" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                                <h6>Studio Créatif</h6>
+                            </a>
+                            <p>Bienvenue dans notre service. Nous sommes toujours à votre disposition pour répondre à vos besoins.</p> 
+                            <p class="mt-3">
+                                Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a class="d-inline text-primary" href="../public_html/information.html">Studio Créatif</a>
+                            </p>                   
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">LIENS UTILES</h6>
+                        </li>
+                        <li class="list-body">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="../public_html/lien_about.html">About</a>
+                                    <a href="../public_html/lien_service.html">Service</a>
+                                    <a href="../public_html/lien_profolio.html">Portfolio</a>
+                                    <a href="../public_html/lien_testimonial.html">Testimonial</a>
+                                </div>
+                                <div class="col">
+                                    <a href="../public_html/lien_team.html">Team</a>
+                                    <a href="../public_html/lien_blog.html">Blog</a>
+                                    <a href="../public_html/lien_contact.html">Contact</a>
+                                    <a href="../public_html/inscription.html">Inscription</a>                  
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="list-head">
+                            <h6 class="font-weight-bold">CONTACT INFO</h6>
+                        </li>
+                        <li class="list-body">
+                            <p>Contactez-nous et nous vous répondrons dans les 24 heures</p>
+                            <p><i class="ti-location-pin"></i> 19 C, route 1077 par route d'El Jadida, zone indus. lot Batoul, voie B 13, Lissasfa 2019 Casablanca </p>
+                            <p><i class="ti-email"></i>  Plateforme_UXIU@gmail.com</p>
+                            <div class="social-links">
+                                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+    </section>
+</body>
+</html>
